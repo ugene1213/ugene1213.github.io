@@ -1760,7 +1760,7 @@
 			}
 
 			header {
-				margin: 0 0 3em 0;
+				margin: 0 0 1em 0;
 			}
 
 				header > p {
@@ -2114,4 +2114,54 @@
 					display: block;
 				}
 
+	}
+
+	/*Resume and email*/
+	.group::after {
+		clear: both;
+		content: "";
+		display: block;
+	}
+
+	.email-resume {
+		font-weight: bold;
+	}
+
+	.email {
+		display: block;
+		float: left;
+	}
+
+	.resume {
+		display: block;
+		float: left;
+		margin: 0px 0px 0px 10px;
+	}
+
+
+	/*Github and Live*/
+
+	.proj-links {
+		display: block;
+		margin-left:100px;
+	}
+
+	.github {
+		display: block;
+		float: left;
+	}
+
+	.live {
+		display: block;
+		float: left;
+		margin-left: 4px;
+	}
+
+	.live > a {
+		border-left: 1px solid gray;
+		padding-left: 5px;
+	}
+
+	.single {
+		margin-left: 130px;
 	}
