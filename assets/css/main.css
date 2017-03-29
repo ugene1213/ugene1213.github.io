@@ -1460,6 +1460,10 @@
 					width: 48px;
 				}
 
+				ul.social li {
+					text-align: center;
+				}
+
 				ul.social li a.fa-twitter {
 					background-color: #2DAAE4;
 				}
@@ -1912,6 +1916,13 @@
 						margin-left: 0;
 					}
 
+	}
+
+	/* Name link */
+
+	#name {
+		font-size: 1.75em;
+		display: inline;
 	}
 
 /* Tablet */
