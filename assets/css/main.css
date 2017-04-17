@@ -1181,8 +1181,12 @@
  		display: -ms-flexbox;
  		display: -webkit-flex;
  		display: flex;
+		flex-flow: row wrap;
 
- 		-webkit-flex-flow: row wrap;
+	}
+
+	.social li:nth-child(2n+1) {
+		align-self: flex-end;
 	}
 
 /* Form */
@@ -1899,9 +1903,31 @@
 				}
 
 				#about_me p {
-					font-size: 1.5em;
+					font-weight: bold;
+					font-size: 2em;
 					line-height: 1.75em;
 				}
+
+				#personal_pitch {
+					display: -webkit-flex;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+
+				#personal_pitch h2 {
+
+				}
+
+
+
+				#personal_pitch p {
+					font-size: 1.5em;
+					color: black;
+					text-align: centered;
+				}
+
+
 
 			#contact footer {
 				font-size: 0.9em;
